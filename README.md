@@ -1,7 +1,8 @@
 # Introduction
 This project was inspired by:
-* https://github.com/Qidian213/deep_sort_yolov3
+* https://github.com/nwojke/deep_sort
 * https://github.com/Ma-Dan/keras-yolo4
+* https://github.com/Qidian213/deep_sort_yolov3
 
 I swapped out YOLO v3 for YOLO v4 and added the option for asynchronous processing, which significantly improves
 the FPS. However, FPS monitoring is disabled when asynchronous processing is used since it isn't accurate.
