@@ -12,6 +12,8 @@ the FPS. However, FPS monitoring is disabled when asynchronous processing is use
 ## With asynchronous processing
 ![](async_example.gif)
 
+The white boxes are Deep SORT trackers and the blue boxes are YOLO v4 detections. 
+
 This code only detects and tracks people, but can be changed to detect other objects by changing lines 101 and 102 in yolo.py:
 ```
 if predicted_class != 'person':
