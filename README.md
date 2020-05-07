@@ -44,7 +44,7 @@ python demo.py
 ```
 
 ## Settings
-By default, video writing is turned on and asynchronous processing is turned off. These can be editted in demo.py by changing:
+By default, video writing is turned on and asynchronous processing is turned off. These can be edited in demo.py by changing:
 ```
 writeVideo_flag = True
 asyncVideo_flag = False
